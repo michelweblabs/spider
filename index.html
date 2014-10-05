@@ -28,6 +28,29 @@
         }
     }
     </script>
+     <script type="text/montage-serialization">
+    {
+        "owner": {
+            "properties": {
+                "element": {"#": "main"}
+            }
+        },
+        "button": {
+            "prototype": "digit/ui/button.reel",
+            "properties": {
+                "element": {"#": "button"},
+                "active": false,
+                "enabled": true,
+                "identifier": "btn-test",
+                "label": "Button"
+            },
+            "bindings": {
+                "http://www.google.ch": {"<-": "ui/main.reel"}
+            }
+        }
+    }
+    </script>
+
 </head>
 <body>
     <span class="loading"></span>
